@@ -1,0 +1,6 @@
+fastapi[standard]
+PyPDF2
+python-docx
+python-multipart
+openai
+python-dotenv
