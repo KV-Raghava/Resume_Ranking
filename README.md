@@ -1,10 +1,10 @@
 # Resume Ranking
 
-This repository provides a solution for automating resume ranking using FastAPI and OpenAI. It handles extracting key ranking criteria from job descriptions and evaluates resumes based on these criteria, enabling automated HR processes for candidate evaluation.
+This repository provides a solution for automating resume ranking using FastAPI and OpenAI. It handles extracting key criteria from job descriptions and evaluates resumes based on these criteria, enabling automated HR processes for candidate evaluation.
 
 ## Features
 
-- Extracts key ranking criteria from job descriptions.
+- Extracts key criteria from job descriptions.
 - Evaluates resumes based on extracted criteria.
 - Automates HR processes for candidate evaluation.
 - Built with FastAPI and OpenAI.
@@ -27,12 +27,15 @@ This repository provides a solution for automating resume ranking using FastAPI 
     ```bash
     pip install -r requirements.txt
     ```
+4. Add your open ai key in env file
+   ```OPENAI_API_KEY = "enter your open api key here" ```
+
 
 ## Usage
 
 1. Start the FastAPI server:
     ```bash
-    uvicorn main:app --reload
+    fastapi run app.py
     ```
 
 2. Access the API documentation at `http://127.0.0.1:8000/docs`.
